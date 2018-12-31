@@ -1,5 +1,6 @@
 import tkinter as tk
 
+
 class Application(tk.Frame):
     def __init__(self, master=None):
         super().__init__(master)
@@ -19,6 +20,7 @@ class Application(tk.Frame):
 
     def console_warning(self):
         print("weeeooooweeeoooo")
+
 
 root = tk.Tk()
 app = Application(master=root)
